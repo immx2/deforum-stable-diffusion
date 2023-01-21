@@ -92,7 +92,7 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
             'sha256': "5d5ad06cc24170b32f25f0180a357e315848000c5f400ffda350e59142fabd68",
             'url': "https://huggingface.co/prompthero/openjourney/blob/main/mdjrny-v4.ckpt",
             'requires_login': False,
-        }
+        },
         "Protogen_V2.2.ckpt": {
             'sha256': 'bb725eaf2ed90092e68b892a1d6262f538131a7ec6a736e50ae534be6b5bd7b1',
             'url': "https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2.ckpt",
