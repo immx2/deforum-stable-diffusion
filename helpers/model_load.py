@@ -88,6 +88,11 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
         path_extend = ""
 
     model_map = {
+        "RPG-v2.ckpt": {
+            'sha256': "2c99eb705a6f7e84cd4dc2e41a024cbfa1e9b2c46cb2ca37e6f5e577aa79a3c9",
+            'url': "https://huggingface.co/Anashel/rpg/resolve/main/RPG-v2.ckpt",
+            'requires_login': False,
+        },
         "mdjrny-v4.ckpt": {
             'sha256': "5d5ad06cc24170b32f25f0180a357e315848000c5f400ffda350e59142fabd68",
             'url': "https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.ckpt",
