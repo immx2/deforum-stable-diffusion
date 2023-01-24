@@ -87,7 +87,12 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
     else:
         path_extend = ""
 
-    model_map = {
+    model_map = { 
+        "ProtoGen_X5.8.ckpt": {
+            'sha256': "710fc74d4cf3245cf5f1664f25502da0c7750f80e8bbbb56929e710043d84efa",
+            'url': "https://huggingface.co/darkstorm2150/Protogen_x5.8_Official_Release/resolve/main/ProtoGen_X5.8.ckpt",
+            'requires_login': False,
+        },
         "RPG-v2.ckpt": {
             'sha256': "2c99eb705a6f7e84cd4dc2e41a024cbfa1e9b2c46cb2ca37e6f5e577aa79a3c9",
             'url': "https://huggingface.co/Anashel/rpg/resolve/main/RPG-v2.ckpt",
